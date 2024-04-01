@@ -7,3 +7,23 @@ h1.sublogo {
 	font-weight: bold;
 	color: #0a3355;
 }
+
+p.beliefs {
+	font-size: 1.25rem;
+}
+
+a.getinvolved {
+	background-color: #0076bd;
+}
+
+@media screen and (max-width: 990px) {
+	p.beliefs {
+		font-size: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	a.getinvolved {
+		padding: 1.5rem 2rem;
+		font-size: 1.5rem;
+	}
+}

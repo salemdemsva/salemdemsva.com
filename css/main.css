@@ -2,28 +2,66 @@ body {
 	font-family: sans-serif;
 }
 
-h1.sublogo {
-	font-family: Georgia, serif;
+div.navbar {
+	background-color: #00a8e1;
+	color: #ffffff;
+}
+
+i.hamburger, a.social-link {
+	color: #ffffff;
+}
+
+h1.title {
+	font-size: 1.25em;
+	margin-bottom: 0;
+}
+
+div.jumbotron {
+	background-color: #1177B9;
+	color: #ffffff;
+}
+
+div.jumbotron h2 {
+	font-size: 2.75em;
 	font-weight: bold;
-	color: #0a3355;
 }
 
-p.beliefs {
-	font-size: 1.25rem;
+div.jumbotron a {
+	background-color: #fc9b01;
 }
 
-a.getinvolved {
-	background-color: #0076bd;
+div.jumbotron a:hover,
+div.jumbotron a:active,
+div.jumbotron a:focus {
+	background-color: #ffb847;
 }
 
-@media screen and (max-width: 990px) {
-	p.beliefs {
-		font-size: 2rem;
-		margin-bottom: 2rem;
-	}
+div.believe h4.headline {
+	font-size: 1.75em;
+        font-style: italic;
+        font-family: serif;
+	color: #00b1ed;
+}
 
-	a.getinvolved {
-		padding: 1.5rem 2rem;
-		font-size: 1.5rem;
-	}
+div.believe p {
+	font-size: 1.25em;
+	color: #022e5b;
+}
+
+div.footer {
+	background-color: #022e5b;
+	color: #ffffff;
+}
+
+div.footer h6 {
+	font-weight: bold;
+}
+
+div.footer h6, div.footer a {
+	display: block;
+	color: #00a8e1;
+}
+
+div.footer a {
+	margin-bottom: 0.25em;
 }

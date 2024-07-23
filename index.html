@@ -5,22 +5,75 @@
 	<link href="css/main.css" rel="stylesheet" />
 </head>
 <body>
-	<div class="container d-flex align-items-center text-center h-100">
-		<div class="row justify-content-center">
-			<div class="col-12 col-md-9 pb-2">
-				<img src="images/vadems.svg" width="100%" alt="VA Democrats logo" />
+	<div class="navbar shadow-0">
+		<div class="container-fluid">
+			<button data-mdb-button-init class="navbar-toggler" type="button" data-mdb-collapse-init data-mdb-target="#navbarToggleContent" aria-controls="navbarToggleContent" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fas fa-bars hamburger"></i>
+			</button>
+			<div class="col-auto pt-2 pb-1">
+				<h1 class="title">Salem City Democratic Committee</h1>
 			</div>
-			<div class="col-12 col-sm-11 pb-4">
-				<h1 class="sublogo">Salem City Democratic Committee</h1>
-			</div>
-			<div class="col-12 col-lg-8 col-sm-11 pb-4">
-				<p class="beliefs">We believe the economy should work for everyone, healthcare is a right, our diversity is our strength, science is real, strong public education is a necessity, love is love, and democracy is worth defending.</p>
-			</div>
-			<div class="col-12">
-				<a href="mailto:chair@salemdemsva.com" class="getinvolved btn btn-primary btn-lg" data-mdb-ripple-init>Get Involved</a>
+			<div class="col-auto">
+				<a href="https://www.facebook.com/SalemVADems/" class="me-3 social-link"><i class="fab fa-facebook-f"></i></a>
+				<!--<a href="" class="me-3 social-link"><i class="fab fa-instagram"></i></a>-->
+				<!--<a href="" class="me-2 social-link"><i class="fab fa-linkedin"></i></a>-->
 			</div>
 		</div>
 	</div>
+	<div class="collapse" id="navbarToggleContent">
+		<div class="p-4">
+			<!--<button data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-block m-0">Link 1</button>-->
+			<!--<button data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-block m-0">Link 2</button>-->
+			<!--<button data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-block m-0">Link 3</button>-->
+		</div>
+	</div>
+
+	<div class="col-12 text-center jumbotron">
+		<div class="justify-content-center align-items-center">
+			<h2 class="pt-5 pb-2">Supporting democracy in Salem City, Virginia</h2>
+			<a href="mailto:chair@salemdemsva.com?subject=Get Involved" class="btn btn-primary btn-lg mt-2 mb-5" data-mdb-ripple-init="" style="">Get Involved</a>
+		</div>
+	</div>
+
+	<div class="col-12 text-center d-flex justify-content-center believe">
+		<div class="col-6 p-5">
+			<h4 class="headline mb-2">What we believe</h4>
+			<div class="justify-content-center align-items-center">
+				<p>We believe the economy should work for everyone, healthcare is a right, our diversity is our strength, science is real, strong public education is a necessity, love is love, and democracy is worth defending.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="text-center text-lg-start footer">
+		<div class="container text-center text-md-start pt-5 pb-4">
+			<div class="row mt-3">
+				<div class="col-md-3 mx-auto mb-4">
+					<h6 class=mb-4">Salem City Democratic Committee</h6>
+				</div>
+
+				<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+					<h6 class="mb-4">Friends of SCDC</h6>
+					<a href="https://vademocrats.org/">VADEMS</a>
+					<a href="https://www.vayd.org/">Virginia Young Democrats</a>
+				</div>
+
+				<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+					<h6 class="mb-4">Get Involved</h6>
+					<a href="https://vademocrats.org/voting-in-virginia/">Vote</a>
+					<a href="https://www.mobilize.us/dpva/?event_type=1">Volunteer</a>
+					<a href="https://secure.actblue.com/donate/dpva-web-2023?refcode=welcome">Donate</a>
+				</div>
+
+				<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+					<h6 class="mb-4">Social Links</h6>
+					<a href="https://www.facebook.com/SalemVADems/">Facebook</a>
+					<!--<a href="">Instagram</a>-->
+					<!--<a href="">Linkedin</a>-->
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
 </body>
 </html>

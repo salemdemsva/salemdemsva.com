@@ -2,6 +2,10 @@ body {
 	font-family: sans-serif;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
 div.navbar {
 	background-color: #00a8e1;
 	color: #ffffff;
@@ -16,6 +20,10 @@ h1.title {
 	margin-bottom: 0;
 }
 
+h1.title a {
+	color: #ffffff;
+}
+
 div.jumbotron {
 	background-color: #1177B9;
 	color: #ffffff;
@@ -28,6 +36,7 @@ div.jumbotron h2 {
 
 div.jumbotron a {
 	background-color: #fc9b01;
+	text-decoration: none;
 }
 
 div.jumbotron a:hover,
@@ -36,15 +45,21 @@ div.jumbotron a:focus {
 	background-color: #ffb847;
 }
 
-div.believe h4.headline {
+h4.headline {
 	font-size: 1.75em;
 	font-style: italic;
 	font-family: serif;
 	color: #00b1ed;
 }
 
+div.post h4.date {
+	font-size: 1em;
+	font-family: sans-serif;
+	color: #00b1ed;
+}
+
 div.believe p {
-	font-size: 1.25em;
+	font-size: 1.2em;
 	color: #022e5b;
 }
 

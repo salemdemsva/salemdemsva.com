@@ -45,6 +45,15 @@ div.jumbotron a:focus {
 	background-color: #ffb847;
 }
 
+div.believe {
+	background-color: #f3f3f3;
+}
+
+div.believe p {
+	font-size: 1.2em;
+	color: #022e5b;
+}
+
 h4.headline {
 	font-size: 1.75em;
 	font-style: italic;
@@ -56,11 +65,6 @@ div.post h4.date {
 	font-size: 1em;
 	font-family: sans-serif;
 	color: #00b1ed;
-}
-
-div.believe p {
-	font-size: 1.2em;
-	color: #022e5b;
 }
 
 div.footer {

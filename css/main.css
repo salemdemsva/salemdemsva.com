@@ -47,14 +47,6 @@ div.believe {
 	background-color: #f3f3f3;
 }
 
-div.believe h4 {
-	color: #151515;
-}
-
-div.latest h4 {
-	color: #151515;
-}
-
 div.believe p {
 	font-size: 1.2em;
 	color: #151515;
@@ -64,13 +56,13 @@ h4.headline {
 	font-size: 1.75em;
 	font-style: italic;
 	font-family: serif;
-	color: #ffffff;
+	color: #151515;
 }
 
 div.post h4.date {
 	font-size: 1em;
 	font-family: sans-serif;
-	color: #00b1ed;
+	color: #022e5b;
 }
 
 div.footer {

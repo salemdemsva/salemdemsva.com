@@ -11,7 +11,12 @@ div.navbar {
 	color: #ffffff;
 }
 
-i.hamburger {
+.logo {
+	height: 37px;
+    vertical-align: middle;
+}
+
+i.hamburger, .social-link{
 	color: #ffffff;
 }
 
@@ -51,7 +56,7 @@ h4.headline {
 	font-size: 1.75em;
 	font-style: italic;
 	font-family: serif;
-	color: #00b1ed;
+	color: #ffffff;
 }
 
 div.post h4.date {
@@ -77,3 +82,5 @@ div.footer h6, div.footer a {
 div.footer a {
 	margin-bottom: 0.25em;
 }
+
+/* og svg #0A3355  */

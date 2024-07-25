@@ -7,11 +7,11 @@ a:hover {
 }
 
 div.navbar {
-	background-color: #00a8e1;
+	background-color: #022e5b;
 	color: #ffffff;
 }
 
-i.hamburger, a.social-link {
+i.hamburger {
 	color: #ffffff;
 }
 
@@ -24,25 +24,18 @@ h1.title a {
 	color: #ffffff;
 }
 
-div.jumbotron {
-	background-color: #1177B9;
+
+.cta a {
+	background-color: #FD610D;
 	color: #ffffff;
-}
-
-div.jumbotron h2 {
-	font-size: 2.75em;
-	font-weight: bold;
-}
-
-div.jumbotron a {
-	background-color: #fc9b01;
 	text-decoration: none;
 }
 
-div.jumbotron a:hover,
-div.jumbotron a:active,
-div.jumbotron a:focus {
-	background-color: #ffb847;
+div.cta a:hover,
+div.cta a:active,
+div.cta a:focus {
+	background-color: #ffffff;
+	color: #FD610D;
 }
 
 div.believe {

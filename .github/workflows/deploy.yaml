@@ -12,13 +12,13 @@ jobs:
       - name: push
         uses: easingthemes/ssh-deploy@main
         with:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          ARGS: "${{ vars.RSYNC_ARGS }}"
-          SOURCE: ${{ vars.LOCAL_SOURCE }}
-          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-          REMOTE_USER: ${{ secrets.REMOTE_USER }}
-          TARGET: ${{ secrets.REMOTE_TARGET }}
-          EXCLUDE: "${{ vars.RSYNC_EXCLUDE }}"
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_SSH_PRIVATE_KEY }}
+          ARGS: "${{ vars.DEPLOY_RSYNC_ARGS }}"
+          SOURCE: ${{ vars.DEPLOY_LOCAL_SOURCE }}
+          REMOTE_HOST: ${{ secrets.DEPLOY_REMOTE_HOST }}
+          REMOTE_USER: ${{ secrets.DEPLOY_REMOTE_USER }}
+          TARGET: ${{ secrets.DEPLOY_REMOTE_TARGET }}
+          EXCLUDE: "${{ vars.DEPLOY_RSYNC_EXCLUDE }}"
           SCRIPT_AFTER: |
-            ls -lahR ${{ secrets.REMOTE_TARGET }}
+            ls -lahR ${{ secrets.DEPLOY_REMOTE_TARGET }}
             echo $RSYNC_STDOUT

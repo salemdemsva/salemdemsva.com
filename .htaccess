@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTPS} !=on
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R,L]

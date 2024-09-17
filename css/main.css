@@ -13,7 +13,13 @@ div.navbar {
 
 .logo {
 	height: 37px;
-    vertical-align: middle;
+	vertical-align: middle;
+}
+
+.social-links {
+	width: 41.5px;
+	height: 17.5px;
+	display: block;
 }
 
 i.hamburger, .social-link{

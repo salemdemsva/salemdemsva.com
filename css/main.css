@@ -22,7 +22,11 @@ div.navbar {
 	display: block;
 }
 
-i.hamburger, .social-link{
+#navbarToggleContent a {
+	font-size: 14px;
+}
+
+i.hamburger, .social-link {
 	color: #ffffff;
 }
 

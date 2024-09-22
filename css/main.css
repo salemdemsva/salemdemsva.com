@@ -7,7 +7,16 @@ a:hover {
 }
 
 div.notice {
-	background-color: white;
+	background-color: #0085B3;
+	font-weight: bold;
+}
+
+div.notice p, div.notice a {
+	color: #ffffff;
+}
+
+div.notice a {
+	text-decoration: underline;
 }
 
 div.navbar {
@@ -57,8 +66,17 @@ div.cta a:focus {
 	color: #FD610D;
 }
 
-div.believe {
+div.sidebar {
 	background-color: #f3f3f3;
+}
+
+div.announce-side {
+        background-color: #0085B3;
+	color: white;
+}
+
+div.announce-side .headline, div.announce-side p {
+	color: white;
 }
 
 div.believe p {
@@ -89,6 +107,7 @@ div.footer {
 }
 
 div.footer h6 {
+	font-size: 1.05em;
 	font-weight: bold;
 }
 
@@ -98,7 +117,7 @@ div.footer h6, div.footer a {
 }
 
 div.footer a {
-	margin-bottom: 0.25em;
+	margin-bottom: 0.2em;
 }
 
 /* og svg #0A3355  */

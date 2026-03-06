@@ -1,0 +1,14 @@
+baseURL = 'https://salemdemsva.com/'
+languageCode = 'en-us'
+title = 'Salem City Democratic Committee, Salem, Virginia'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  description = "Salem City Democratic Committee strives to improve our community through service projects and working to elect Democrats."
+  # Notice banner configuration (leave empty to hide)
+  # Example: notice = { text = "Early Voting Has Started!", link = "/posts/early-voting-general-election-2025.html" }
+  #notice = { text = "Early Voting Has Started!", link = "/posts/early-voting-general-election-2025.html" }

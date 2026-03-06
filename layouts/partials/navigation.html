@@ -1,0 +1,18 @@
+{{ $currentPage := . }}
+<nav class="navbar sticky-top shadow-0">
+	<div class="container-fluid">
+		<div class="social-links">
+		</div>
+		<a href="/"><img class="logo" src="/images/vadems.svg" alt="va Democrats logo"></a>
+		<button class="navbar-toggler" type="button" aria-controls="navbarToggleContent" aria-expanded="false" aria-label="Toggle navigation">
+			<i class="fas fa-bars hamburger"></i>
+		</button>
+	</div>
+</nav>
+<div class="collapse" id="navbarToggleContent">
+	<div class="p-4">
+		<a href="/" class="btn btn-link btn-block m-0{{ if $currentPage.IsHome }} active{{ end }}">Home</a>
+		<a href="/posts/" class="btn btn-link btn-block m-0">Posts</a>
+		<a href="/about/" class="btn btn-link btn-block m-0{{ if eq $currentPage.Title "About" }} active{{ end }}">About</a>
+	</div>
+</div>

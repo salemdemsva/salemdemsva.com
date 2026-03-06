@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{ partial "navigation.html" . }}
+
+{{ partial "cta.html" . }}
+
+<div class="col-12 d-flex justify-content-center posts">
+	<div class="col-8 m-5">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="/">Home</a></li>
+				<li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+			</ol>
+		</nav>
+		<h4 class="headline mb-3">{{ .Title }}</h4>
+		<div class="post-list text-start">
+			{{ range .Pages }}
+				<a href="{{ .RelPermalink }}">{{ .Title }} - {{ .Date.Format "Jan 02, 2006" }}</a>
+				<p class="excerpt">{{ .Summary | plainify | truncate 150 }}</p>
+			{{ end }}
+		</div>
+	</div>
+</div>
+
+{{ partial "footer.html" . }}
+{{ end }}

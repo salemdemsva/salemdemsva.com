@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="{{ .Site.Params.description }}">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+	<link href="/css/main.css" rel="stylesheet" />
+</head>
+<body>
+	{{ partial "notice.html" . }}
+	{{ block "main" . }}{{ end }}
+
+	<script src="/js/main.js"></script>
+</body>
+</html>

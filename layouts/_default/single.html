@@ -1,0 +1,26 @@
+{{ define "main" }}
+{{ partial "navigation.html" . }}
+
+{{ partial "cta.html" . }}
+
+<div class="d-flex justify-content-center">
+	<div class="col-8 post m-5">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="/">Home</a></li>
+				{{ if eq .Section "posts" }}
+				<li class="breadcrumb-item"><a href="/posts/">Posts</a></li>
+				{{ end }}
+				<li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+			</ol>
+		</nav>
+		<h4 class="headline mb-2">{{ .Title }}</h4>
+		<h4 class="date mb-3">{{ .Date.Format "January 02, 2006" }}</h4>
+		<div class="content">
+			{{ .Content }}
+		</div>
+	</div>
+</div>
+
+{{ partial "footer.html" . }}
+{{ end }}
